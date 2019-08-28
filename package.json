@@ -8,8 +8,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "npm": "^6.11.2",
     "react": "16.8.6",
-    "react-native": "0.60.5"
+    "react-native": "0.60.5",
+    "react-navigation": "^3.12.1"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
