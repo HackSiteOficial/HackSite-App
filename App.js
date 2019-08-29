@@ -1,17 +1,12 @@
 import React from 'react';
-import {createStackNavigator} from 'react-navigation';
+import { View, Text, Button } from 'react-native';
+import { createAppContainer, createStackNavigator } from 'react-navigation';
 import Login from './src/components/login/Login';
 
-const Routes = createStackNavigation({
+const AppNavigator = createStackNavigator({
   Login: Login,
 }, {
-  initialRoute: 'Login',
+  initialRouteName: 'Login',
 });
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <Routes/>
-    );
-  }
-}
+export default createAppContainer(AppNavigator);
