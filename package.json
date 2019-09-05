@@ -13,6 +13,8 @@
     "react-native": "0.60.5",
     "react-native-gesture-handler": "^1.4.1",
     "react-native-reanimated": "^1.2.0",
+    "react-native-typewriter": "^0.6.2",
+    "react-native-video": "^5.0.0",
     "react-navigation": "^3.12.1"
   },
   "devDependencies": {

@@ -5,7 +5,8 @@ import {
   StyleSheet,
   TouchableHighlight,
   Button,
-  TextInput
+  TextInput,
+  StatusBar
 } from 'react-native';
 import { NavigationActions, StackActions } from 'react-navigation';
 import img1 from '../../assets/cursor.png';
@@ -21,19 +22,7 @@ export default class Login extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.welcomeWrapper}>
-          <Text style={styles.welcomeText}>
-            BIENVENIDO A HACKSITE
-          </Text>
-        </View>
-        <View style={styles.viewInput}>
-          <TextInput style={styles.textInput}
-            placeholderTextColor='white'
-          />
-          <TextInput style={styles.textInput}
-            placeholderTextColor='white'
-          />
-        </View>
+        <StatusBar backgroundColor='black' barStyle='bark-content'/>
       </View>
     );
   }
