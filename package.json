@@ -8,7 +8,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "npm": "^6.11.2",
+    "npm": "^6.13.4",
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-gesture-handler": "^1.4.1",
